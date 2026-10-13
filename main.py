@@ -1,7 +1,11 @@
-print("bienvenue sur StudyPilot !")
+taches = []
 
-matiere = input("quelle matiere veux-tu reviser ? ")
-print(f"Tu vas réviser : {matiere}")
 
-tache = input("Quelle est ta prochaine tache ? ")
-print(f"Ta prochaine tache est : {tache}")
+
+afficher_menu = "StudyPilot"
+
+print("Ajouter une tache")
+print("Afficher les taches")
+print("Terminer une tache")
+print("Quitter")
+    
